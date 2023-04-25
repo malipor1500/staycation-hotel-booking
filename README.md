@@ -1,4 +1,4 @@
-# likely-secretary-3214
+# StayCation
  Group Project
  ![Staycation SS](https://user-images.githubusercontent.com/113035635/208926062-249653c9-c4c5-4169-aedd-6627c028efd4.PNG)
  We have created a clone of Orbitz.com website which is an online travel agency, OTA,                                                                                   or travel booking platform,You can use the Orbitz website or app to search for travel                                                                                   and compare availability and pricing, It functions as a search engine and displays pricing from different travel companies.                                                Also we have given it an unique name i.e, StayCation.com & some functionalities.
