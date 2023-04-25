@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5
+}
+
+#container {
+    width: 70%;
+    margin: auto;
+}
+
+#header {
+    height: 70px;
+    width: 100%;
+    background-color: #08253C;
+    color: white;
+}
+
+#navbar {
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#left-section {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#right-section {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-btn {
+    background-color: #08253C;
+    color: white;
+    border: 0;
+    font-weight: 600;
+}
+
+#searchbar {
+    display: flex;
+    gap: 10px;
+}
+
+.searchBarItem {
+    background-color: white;
+    border: 1px solid #999999;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.searchBarItem input {
+    border: 0px;
+    outline: none;
+}
+
+.searchButton {
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#searchbtn {
+    border: 0px;
+    background-color: #e66e6e;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+}
+
+#searchbtn:hover {
+    background-color: #ef9292;
+    cursor: pointer;
+}
+
+i {
+    margin-right: 15px;
+}
+
+#filters {
+    width: 20%;
+}
+
+#sort {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    border-radius: 8px;
+    margin-top: 10px;
+    gap: 10px;
+    line-height: 50px;
+}
+
+#sort label {
+    margin: 2px;
+}
+
+select {
+    background-color: white;
+    color: #08253C;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+}
+
+#filterstar {
+    font-size: 15px;
+    background-color: white;
+    color: #08253C;
+}
+
+#sort button {
+    background-color: #08253C;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+#properties {
+    display: flex;
+    padding: 20px;
+}
+
+#searchedProperty {
+    width: 70%;
+}
+
+#searchedProperty>div {
+    position: relative;
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    width: 100%;
+}
+
+#searchedProperty div:hover {
+    cursor: pointer;
+    background-color: #efebeb;
+}
+
+#searchedProperty>div>img {
+    margin-right: 10px;
+    width: 250px;
+    height: 200px;
+}
+
+#searchedProperty button {
+    margin-top: 10px;
+}
+
+#filters input {
+    background-color: white;
+    color: #08253C;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+}
+
+.price {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    bottom: 10px;
+    right: 10px;
+    text-align: end;
+}
+
+.price button {
+    background-color: #0E8445;
+    margin-bottom: 10px;
+    border: 0px;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#searchedProperty h3 {
+    margin-bottom: 5px;
+}
+
+#searchedProperty p {
+    margin-top: 0px;
+    color: #0E8445;
+    margin: 0;
+}
+
+#google iframe {
+    width: 100%;
+    height: 80%;
+    margin-top: 20px;
+}
